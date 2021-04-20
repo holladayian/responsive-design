@@ -84,6 +84,8 @@ nav {
 	cursor: pointer;
 	font-size: 16px;
 }
+
+/* Obsolete */
 .cta-add {
 	background: #c36cbb;
 	width: 150px;
