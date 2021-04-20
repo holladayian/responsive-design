@@ -41,6 +41,8 @@ nav {
 }
 .nav-link {
 	color: #5f5f79;
+	background: transparent;
+	border: none;
 	font-size: 18px;
 	text-decoration: none;
 }
@@ -188,4 +190,8 @@ nav {
 .arrow-button {
 	border: none;
 	background-color: transparent
+}
+
+.hidden {
+	display: none
 }
