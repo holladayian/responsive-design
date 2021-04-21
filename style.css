@@ -31,6 +31,7 @@ header {
 .logo {
 	font-weight: 400;
 	margin: 5px;
+	cursor: pointer;
 }
 nav {
 	flex: 2;
@@ -41,8 +42,12 @@ nav {
 }
 .nav-link {
 	color: #5f5f79;
+	background: transparent;
+	border: none;
 	font-size: 18px;
 	text-decoration: none;
+	cursor: pointer;
+	outline: none;
 }
 .cart {
 	flex: 1;
@@ -84,6 +89,8 @@ nav {
 	cursor: pointer;
 	font-size: 16px;
 }
+
+/* Obsolete */
 .cta-add {
 	background: #c36cbb;
 	width: 150px;
@@ -183,3 +190,32 @@ nav {
 	}
 }
 
+.arrow-button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+}
+
+.view {
+	margin-top: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mini-view {
+	width: 45em;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	padding: 2em;
+}
+
+.hidden {
+	display: none
+}

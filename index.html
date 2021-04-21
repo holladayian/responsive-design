@@ -15,13 +15,13 @@
 		<header>
 			<div class="logo-container">
 				<img src="./img/logo.svg" alt="logo" />
-				<h4 class="logo">Three Dots</h4>
+				<h4 class="logo">Home</h4>
 			</div>
 			<nav>
 				<ul class="nav-links">
-					<li><a class="nav-link" href="#">About</a></li>
-					<li><a class="nav-link" href="#">Projects</a></li>
-					<li><a class="nav-link" href="#">Contact</a></li>
+					<li><button class="nav-link about">About</button></li>
+					<li><button class="nav-link projects">Projects</button></li>
+					<li><button class="nav-link contact">Contact</button></li>
 				</ul>
 			</nav>
 			<div class="cart">
@@ -30,36 +30,93 @@
     </header>
 
     <main>
-			<section class="presentation">
-				<div class="introduction">
-					<div class="intro-text">
-						<h1>Responsive design</h1>
+
+			<section class="landing-view">
+
+				<section class="presentation">
+					<div class="introduction">
+						<div class="intro-text">
+							<h1>Ian Holladay</h1>
+							<p>
+								This is a webpage displaying some of my 
+								responsive web design skills.
+							</p>
+						</div>
+						<div class="cta">
+							<button class="cta-select">Colors</button>
+							<button class="cta-select">Designs</button>
+						</div>
+					</div>
+					<div class="cover">
+						<img class="current-image" src="./img/headshot.jpg" alt="" />
+					</div>
+				</section>
+				
+				<div class="laptop-select">
+					<button class="arrow-button ab-left">
+						<img src="./img/arrow-left.svg" alt="" />
+					</button>
+					<img class="dot-0" src="./img/dot.svg" alt="" />
+					<img class="dot-1" src="./img/dot-full.svg" alt="" />
+					<img class="dot-2" src="./img/dot-full.svg" alt="" />
+					<button class="arrow-button ab-right">
+						<img src="./img/arrow-right.svg" alt="" />
+					</button>
+				</div>
+
+			</section>
+
+			<section class="about-view hidden">
+				<div class="introduction view">
+					<div class="intro-text view mini-view">
+						<h1>About Me</h1>
 						<p>
-              This is a webpage displaying some of my 
-              responsive web design skills.
+							As an Alaskan born and raised resident, I have had the privilege to experience some of the wildest adventures out there. Currently, I reside in Colorado Springs, CO, and I spend my time honing my skills as an empathetic Software Developer. 
 						</p>
 					</div>
-					<div class="cta">
-						<button class="cta-select">Colors</button>
-						<button class="cta-add">Designs</button>
+				</div>
+			</section>
+
+			<section class="projects-view hidden">
+				<div class="introduction view">
+					<div class="intro-text view">
+						<h1>Projects</h1>
+						<p>
+							Soon to come...
+						</p>
 					</div>
 				</div>
-				<div class="cover">
-					<img src="./img/headshot.jpg" alt="" />
+			</section>
+
+			<section class="contact-view hidden">
+				<div class="introduction view">
+					<div class="intro-text view">
+						<h1>Contact</h1>
+						<section class="contact-info">
+							<div>
+								phone: (907)-978-3238
+							</div>
+							<div>
+								email: holladayian@gmail.com
+							</div>
+							<div>
+								GitHub: @holladayian
+							</div>
+							<div>
+								LinkedIn: Ian Holladay
+							</div>
+							<div>
+								portfolio: Link
+							</div>
+						</section>
+					</div>
 				</div>
-      </section>
-
-      <div class="laptop-select">
-				<img src="./img/arrow-left.svg" alt="" />
-				<img src="./img/dot.svg" alt="" />
-				<img src="./img/dot-full.svg" alt="" />
-				<img src="./img/dot-full.svg" alt="" />
-				<img src="./img/arrow-right.svg" alt="" />
-			</div>
-
-			<img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+			</section>
+				
+				<img class="big-circle" src="./img/big-eclipse.svg" alt="" />
 			<img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
 			<img class="small-circle" src="./img/small-eclipse.svg" alt="" />
-    </main>
+		</main>
+		<script src="./main.js"></script>
   </body>
 </html>
