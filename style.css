@@ -214,8 +214,17 @@ nav {
 	flex-direction: column;
 	border: 2px solid black;
 	padding: 2em;
+	width: 20em;
 }
 
 .hidden {
 	display: none
+}
+
+tr {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 12px;
+	padding: .5em;
 }
