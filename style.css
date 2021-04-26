@@ -70,13 +70,13 @@ nav {
 	background: linear-gradient(to right, #494964, #6f6f89);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: fade 1.5s ease;
+	animation: fade .75s ease;
 }
 .intro-text p {
 	margin-top: 5px;
 	font-size: 22px;
 	color: #585772;
-	animation: fade 1.5s ease;
+	animation: fade .75s ease;
 }
 
 .cta {
@@ -114,6 +114,18 @@ nav {
 	height: 100%;
 	filter: drop-shadow(0px 5px 3px black);
 	animation: drop 1.5s ease;
+}
+
+.cover-2 {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+}
+.cover-2 img {
+	height: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: fade 1.5s ease;
 }
 
 .big-circle {
