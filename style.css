@@ -70,11 +70,13 @@ nav {
 	background: linear-gradient(to right, #494964, #6f6f89);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation: fade 1.5s ease;
 }
 .intro-text p {
 	margin-top: 5px;
 	font-size: 22px;
 	color: #585772;
+	animation: fade 1.5s ease;
 }
 
 .cta {
