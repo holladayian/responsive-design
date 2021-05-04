@@ -56,6 +56,10 @@ nav {
 	width: 15px;
 }
 
+.dark-mode {
+	cursor: pointer;
+}
+
 .presentation {
 	display: flex;
 	width: 90%;
