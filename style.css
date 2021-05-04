@@ -236,7 +236,8 @@ nav {
 .contact-info {
 	display: flex;
 	flex-direction: column;
-	border: 2px solid black;
+	border: 1px solid black;
+	border-radius: 2% 10%;
 	padding: 2em;
 	width: 20em;
 }
