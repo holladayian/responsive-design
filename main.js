@@ -12,6 +12,10 @@ const landingView = document.querySelector(".landing-view");
 const aboutView = document.querySelector(".about-view");
 const projectsView = document.querySelector(".projects-view");
 const contactView = document.querySelector(".contact-view");
+const darkMode = document.querySelector(".dark-mode");
+const navLinks = document.querySelectorAll(".nav-link");
+const modeChangers = document.querySelectorAll(".mode");
+const body = document.querySelector(".body");
 
 // let imgIterator = 0;
 // let imgIndex = [
@@ -26,6 +30,25 @@ aboutButton.addEventListener("click", viewAbout)
 projectsButton.addEventListener("click", viewProjects)
 contactButton.addEventListener("click", viewContacts)
 homeButton.addEventListener("click", viewHome)
+darkMode.addEventListener("click", toggleDark)
+
+function toggleDark() {
+  navLinks.forEach(navLink => {
+    navLink.classList.toggle("darkWhite")
+  })
+  // for (var i = 0; i < navLinks.length; i++) {
+  //   navLinks[i].classList.toggle("darkWhite")
+  // }
+  // for (var i = 0; i < modeChangers.length; i++) {
+  //   modeChangers[i].classList.toggle("darkWhite")
+  // }
+  modeChangers.forEach(modeChange => {
+    console.log(modeChange)
+    modeChange.classList.toggle("darkWhite")
+  })
+  body.classList.toggle("dark")
+  darkMode.classList.toggle("darkWhite")
+}
 
 // function cycleLeft() {
 //   if (imgIterator > 0) {
