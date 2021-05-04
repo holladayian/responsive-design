@@ -30,7 +30,7 @@ aboutButton.addEventListener("click", viewAbout)
 projectsButton.addEventListener("click", viewProjects)
 contactButton.addEventListener("click", viewContacts)
 homeButton.addEventListener("click", viewHome)
-darkMode.addEventListener("click", toggleDark)
+// darkMode.addEventListener("click", toggleDark)
 
 function toggleDark() {
   navLinks.forEach(navLink => {
