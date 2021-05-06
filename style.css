@@ -50,8 +50,15 @@ nav {
 	outline: none;
 }
 .cart {
+	color: #5f5f79;
 	flex: 1;
 	justify-content: flex-end;
+	height: 15px;
+	width: 15px;
+}
+
+.dark-mode {
+	cursor: pointer;
 }
 
 .presentation {
@@ -70,11 +77,13 @@ nav {
 	background: linear-gradient(to right, #494964, #6f6f89);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation: fade .75s ease;
 }
 .intro-text p {
 	margin-top: 5px;
 	font-size: 22px;
 	color: #585772;
+	animation: fade .75s ease;
 }
 
 .cta {
@@ -112,6 +121,18 @@ nav {
 	height: 100%;
 	filter: drop-shadow(0px 5px 3px black);
 	animation: drop 1.5s ease;
+}
+
+.cover-2 {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+}
+.cover-2 img {
+	height: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: fade 1.5s ease;
 }
 
 .big-circle {
@@ -153,6 +174,15 @@ nav {
 	100% {
 		opacity: 1;
 		transform: translateY(0px);
+	}
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }
 
@@ -203,6 +233,7 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	animation: fade .75s ease;
 }
 
 .mini-view {
@@ -210,9 +241,11 @@ nav {
 }
 
 .contact-info {
+	color: #5f5f79;
 	display: flex;
 	flex-direction: column;
-	border: 2px solid black;
+	border: 1px solid black;
+	border-radius: 2% 10%;
 	padding: 2em;
 	width: 20em;
 }
@@ -227,4 +260,12 @@ tr {
 	justify-content: space-between;
 	font-size: 12px;
 	padding: .5em;
+}
+
+.darkWhite {
+	color: white;
+}
+
+.dark {
+	background-color: black;
 }

@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="./style.css" />
 		<title>Landing Page</title>
   </head>
-  <body>
+  <body class="body">
 		<header>
 			<div class="logo-container">
 				<img src="./img/logo.svg" alt="logo" />
@@ -25,7 +25,8 @@
 				</ul>
 			</nav>
 			<div class="cart">
-				<img src="./img/cart.svg" alt="cart" />
+				<!-- <img src="./img/cart.svg" alt="cart" /> -->
+				<img class="dark-mode" src="./img/dark-mode.png" alt="cart" />
 			</div>
     </header>
 
@@ -36,23 +37,23 @@
 				<section class="presentation">
 					<div class="introduction">
 						<div class="intro-text">
-							<h1>Ian Holladay</h1>
-							<p>
+							<h1 class="mode">Ian Holladay</h1>
+							<p class="mode">
 								This is a webpage displaying some of my 
 								responsive web design skills.
 							</p>
 						</div>
-						<div class="cta">
+						<!-- <div class="cta">
 							<button class="cta-select">Colors</button>
 							<button class="cta-select">Designs</button>
-						</div>
+						</div> -->
 					</div>
 					<div class="cover">
 						<img class="current-image" src="./img/headshot.jpg" alt="" />
 					</div>
 				</section>
 				
-				<div class="laptop-select">
+				<!-- <div class="laptop-select">
 					<button class="arrow-button ab-left">
 						<img src="./img/arrow-left.svg" alt="" />
 					</button>
@@ -62,26 +63,29 @@
 					<button class="arrow-button ab-right">
 						<img src="./img/arrow-right.svg" alt="" />
 					</button>
-				</div>
+				</div> -->
 
 			</section>
 
-			<section class="about-view hidden">
+			<section class="about-view presentation hidden">
 				<div class="introduction view">
 					<div class="intro-text view mini-view">
-						<h1>About Me</h1>
-						<p>
-							As an Alaskan born and raised resident, I have had the privilege to experience some of the wildest adventures out there. Currently, I reside in Colorado Springs, CO, and I spend my time honing my skills as an empathetic Software Developer. 
+						<h1 class="mode">About Me</h1>
+						<p class="mode">
+							As an Alaskan born and raised resident, I have had the privilege to experience some of the wildest adventures out there. Currently, I reside in Colorado Springs, CO, and I spend my time honing my skills as an empathy-driven Software Developer. 
 						</p>
 					</div>
+				</div>
+				<div class="cover-2">
+					<img class="current-image" src="./img/london.jpeg" alt="" />
 				</div>
 			</section>
 
 			<section class="projects-view hidden">
 				<div class="introduction view">
 					<div class="intro-text view">
-						<h1>Projects</h1>
-						<p>
+						<h1 class="mode">Projects</h1>
+						<p class="mode">
 							Soon to come...
 						</p>
 					</div>
@@ -91,24 +95,28 @@
 			<section class="contact-view hidden">
 				<div class="introduction view">
 					<div class="intro-text view">
-						<h1>Contact</h1>
+						<h1 class="mode">Contact</h1>
 						<section class="contact-info">
 							<table>
 								<tr>
-									<th>Phone</th>
-									<th>(907)-978-3238</th>
+									<th class="mode">Phone</th>
+									<th class="mode">(907)-978-3238</th>
 								</tr>
 								<tr>
-									<th>Email</th>
-									<th>holladayian@gmail.com</th>
+									<th class="mode">Email</th>
+									<th class="mode">holladayian@gmail.com</th>
 								</tr>
 								<tr>
-									<th>GitHub</th>
-									<th><a href="https://github.com/holladayian" target="_blank">@holladayian</a></th>
+									<th class="mode">GitHub</th>
+									<th class="mode"><a href="https://github.com/holladayian" target="_blank">@holladayian</a></th>
 								</tr>
 								<tr>
-									<th>LinkedIn</th>
-									<th><a href="https://www.linkedin.com/in/ian-holladay/" target="_blank">Ian Holladay</a></th>
+									<th class="mode">LinkedIn</th>
+									<th class="mode"><a href="https://www.linkedin.com/in/ian-holladay/" target="_blank">Ian Holladay</a></th>
+								</tr>
+								<tr>
+									<th class="mode">Portfolio</th>
+									<th class="mode"><a href="https://terminal.turing.edu/profiles/524" target="_blank">profile</a></th>
 								</tr>
 							</table>
 						</section>
